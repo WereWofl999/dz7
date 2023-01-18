@@ -1,0 +1,95 @@
+*{transition: all .1s ease-in;}
+
+/*spisoc*/
+.boddy{
+    padding: 100px 0;
+    background:#3B3F45 ;
+}
+.nazv{
+    background: #4A4F56;
+    width:100%;
+    max-width:534px;
+    display: block;
+    align-items: center;
+    margin: 0px auto;
+    
+}
+.nazv h1,p{
+    color: #FF8984;
+}
+.zagolov{
+    margin: 0 auto;
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+.spisok{
+    width: 534px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    
+}
+.spisok li{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid #88839E;
+    margin-bottom: 5px;
+    background:#88839E ;
+    border-radius: 3px;
+    transition: .5s all;
+}
+.spisok li:hover{
+    background: #625E77;
+    border-radius: 30px;
+}
+
+li p {
+    font-size:18px;
+    color:#FFFFFF ;
+}
+.two {
+font-size: 11px;
+}
+
+li input:checked + p{
+    text-decoration:line-through;     
+}
+li input:checked ~.two{
+    text-decoration:line-through;     
+}
+/*
+.spisok li:first-child{
+background: green;
+}
+*/
+
+.spisok input{
+    margin-right: 10px;
+}
+/*finish*/
+.finish{
+    background: #3B3F45;
+    max-width: 534px ;
+    height: 45px;
+    margin: 0px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bon{
+    margin-top:50px ;
+    padding: 12px 220px;
+    background:#4A4F56;
+}
+/*.finish .bon .app{
+    margin: 18px;
+}*/
+
+.app{
+    color:#FF8984;
+     
+}
